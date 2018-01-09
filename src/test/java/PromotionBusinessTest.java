@@ -46,7 +46,7 @@ public class PromotionBusinessTest {
 
     @Test
     public void shouldApply15PurcentPromoWhenProductBeginningWithA() {
-        Assert.assertEquals(new Double(15.0), pb.evaluerRemise(100, "ARME"));
+        Assert.assertEquals(new Double(25.0), pb.evaluerRemise(100, "ARME"));
     }
 
     @Test
