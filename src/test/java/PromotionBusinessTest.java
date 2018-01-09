@@ -31,7 +31,7 @@ public class PromotionBusinessTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void shouldThrowException() {
-        Assert.assertEquals(new Double(0), pb.evaluerRemise(100, null));
+        Assert.assertEquals(new Double(10), pb.evaluerRemise(100, null));
     }
 
     @Test(expected = IllegalArgumentException.class)
