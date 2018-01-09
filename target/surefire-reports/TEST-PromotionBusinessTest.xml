@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="1" name="PromotionBusinessTest" time="0.094" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="PromotionBusinessTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_92\jre\bin"/>
     <property name="java.vm.version" value="25.92-b14"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/tmp_diallo2640/Documents/NetBeansProjects/FormationTestUnitaire"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -14,7 +15,6 @@
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
-    <property name="test" value="PromotionBusinessTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\tmp_diallo2640\Documents\NetBeansProjects\FormationTestUnitaire"/>
     <property name="java.runtime.version" value="1.8.0_92-b14"/>
@@ -27,25 +27,26 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.1\java\maven-nblib\netbeans-eventspy.jar"/>
-    <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.1\java\maven\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:/Users/tmp_diallo2640/Documents/maven/apache-maven-3.5.0/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_92\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\app\diallo028450\product\11.2.0\client_1;C:\Program Files (x86)\Common Files\Quest Shared\win32_11gR2_client;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Program Files (x86)\ActivIdentity\SecureLogin\;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\bin\git.exe;C:\Program Files\Git\cmd;C:\Users\tmp_diallo2640\Documents\maven\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_92\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_92\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\tmp_diallo2640\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\tmp_diallo2640\bin;E:\app\diallo028450\product\11.2.0\client_1;C:\Program Files (x86)\Common Files\Quest Shared\win32_11gR2_client;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Enterprise Vault\EVClient;C:\Program Files (x86)\ActivIdentity\SecureLogin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Git\usr\bin\git.exe;C:\Program Files\Git\cmd;C:\Users\tmp_diallo2640\Documents\maven\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_92\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="maven.conf" value="C:/Users/tmp_diallo2640/Documents/maven/apache-maven-3.5.0/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="C:\Users\tmp_diallo2640\Documents\maven\apache-maven-3.5.0\lib\jansi-native\windows64"/>
     <property name="user.home" value="C:\Users\tmp_diallo2640"/>
     <property name="user.timezone" value="GMT"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="UTF-8"/>
+    <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="diallo028450"/>
-    <property name="java.class.path" value="C:\Program Files\NetBeans 8.1\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.class.path" value="C:/Users/tmp_diallo2640/Documents/maven/apache-maven-3.5.0/boot/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_92\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=PromotionBusinessTest -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.1\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="fr"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -54,7 +55,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Program Files\NetBeans 8.1\java\maven"/>
+    <property name="maven.home" value="C:\Users\tmp_diallo2640\Documents\maven\apache-maven-3.5.0"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -66,46 +67,8 @@
   <testcase classname="PromotionBusinessTest" name="shouldThrowExceptionWherePriceIsLessThan0" time="0"/>
   <testcase classname="PromotionBusinessTest" name="shouldApply2PurcentPromoWhenProductGreaterThan500" time="0"/>
   <testcase classname="PromotionBusinessTest" name="shouldThrowExceptionIFProductIsEmpty" time="0"/>
-  <testcase classname="PromotionBusinessTest" name="shouldApply15PurcentPromoWhenProductBeginningWithA" time="0.006">
-    <failure message="expected:&lt;25.0&gt; but was:&lt;15.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;25.0&gt; but was:&lt;15.0&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at PromotionBusinessTest.shouldApply15PurcentPromoWhenProductBeginningWithA(PromotionBusinessTest.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-</failure>
-  </testcase>
-  <testcase classname="PromotionBusinessTest" name="shouldApply5PurcentPromoWhenProductBeginningWithBAndGreaterThan500" time="0.001"/>
+  <testcase classname="PromotionBusinessTest" name="shouldApply15PurcentPromoWhenProductBeginningWithA" time="0"/>
+  <testcase classname="PromotionBusinessTest" name="shouldApply5PurcentPromoWhenProductBeginningWithBAndGreaterThan500" time="0"/>
   <testcase classname="PromotionBusinessTest" name="shouldApply5PurcentPromoWhenProductBeginningWithB" time="0"/>
   <testcase classname="PromotionBusinessTest" name="shouldThrowException" time="0"/>
   <testcase classname="PromotionBusinessTest" name="shouldApply15PurcentPromoWhenProductBeginningWithAAndGreaterThan500" time="0"/>

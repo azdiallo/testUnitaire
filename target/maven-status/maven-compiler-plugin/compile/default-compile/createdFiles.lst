@@ -1,0 +1,15 @@
+com\snt\formationtestunitaire\Lampe\LampeAbsenteException.class
+com\snt\formationtestunitaire\Lampe\LampeDejaAllumeeException.class
+com\snt\formationtestunitaire\Lampe\LampeServiceImpl.class
+com\snt\formationtestunitaire\Lampe\RepoNullException.class
+com\snt\service\PromotionCalculatorService.class
+com\snt\formationtestunitaire\Lampe\Lampe.class
+com\snt\impl\PromoCalculatorServiceImpl.class
+com\snt\formationtestunitaire\Lampe\LampeService.class
+com\snt\formationtestunitaire\Lampe\LampeRepository.class
+com\snt\formationtestunitaire\Lampe\LampePresenteException.class
+com\snt\formationtestunitaire\Lampe\LampeDejaEteinteException.class
+com\snt\formationtestunitaire\Lampe\ETAT.class
+com\snt\formationtestunitaire\Lampe\LampeRepositoryImpl.class
+com\snt\formationtestunitaire\Lampe\ListeVideException.class
+com\snt\formationtestunitaire\PromotionBusiness.class
